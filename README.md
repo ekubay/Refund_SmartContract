@@ -9,28 +9,20 @@
 **Table of contents**
 
 - [Introduction](#introduction)
-- [Overview](#overview)
 - [Objective](#objective)
-- [Data](#data)
 - [Requirements](#requirements)
 - [Install](#install)
 - [Using the application](#examples)
 - [Notebooks](#notebooks)
 - [Scripts](#scripts)
-- [Strategies](#strategies)
 - [Authors](#authors)
 
 ## Introduction
 
-> The client for this week's challenge is Gokada - the largest last mile delivery service in Nigeria. Gokada works is partnered with motorbike owners and drivers to deliver parcels across Lagos, Nigeria. Gokada has completed more than a million deliveries in less than a year, with a fleet of over 1200 riders.
-One key issue Gokada has faced as it expands its service is the sub-optimal placement of pilots (Gokada calls their motor drivers pilots) and clients who want to use Gokada to send their parcel. This has led to a high number of unfulfilled delivery requests. 
-
+> The refund by location smart contract is aimed to be used when one party, for example an employer, agrees to pay another party, for example an employee, for being present in a certain geographic area for a certain duration. The employee’s phone sends its GPS location to a smart contract at a certain interval. Based on the pre-agreed contract codified in an Ethereum smart contract, a cryptocurrency payment is executed when all the agreed conditions are met.  
 
 ## Objective
->
- 
-
-> Basic features of the data sets:
+>The objective of this project is to produce an Ethereum based dApp that has both the smart contract tested and deployed in a testnet and a front end that will allow monitoring of the status.
 
 ## Requirements
 > Pip
@@ -46,8 +38,8 @@ You can find the full list of requirements in the requirements.txt file
 - First clone this repo to your local machine using the command below
 
 ```
-git clone https://github.com/ekubay/causal_inference.git
-cd causal_inference
+git clone https://github.com/ekubay/Refund_SmartContract.git
+cd Refund_SmartContract
 pip install -r requirements.txt
 ```
 
