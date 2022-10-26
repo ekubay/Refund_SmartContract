@@ -1,10 +1,6 @@
-# Logistic-Optimization
+# Refund by Location Smart Contract
 
-## Delivery drivers location optimisation with Causal Inference 
-
-#### Initial system architecture design
-
-![](screen_shots/solid-workflow-diagram.png)
+### Initial system architecture design
 
 **Table of contents**
 
@@ -12,8 +8,6 @@
 - [Objective](#objective)
 - [Requirements](#requirements)
 - [Install](#install)
-- [Using the application](#examples)
-- [Notebooks](#notebooks)
 - [Scripts](#scripts)
 - [Authors](#authors)
 
@@ -62,5 +56,3 @@ pip install -r requirements.txt
 ## Show us your support
 
 > Give ⭐ if you like this project, and also feel free to contact me at any moment.
-
-![Contributors list](https://contrib.rocks/image?repo=Logistic-optimization)
