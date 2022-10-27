@@ -37,10 +37,6 @@ cd Refund_SmartContract
 pip install -r requirements.txt
 ```
 
-## Notebooks
-
-> All the notebooks that are used in this project including EDA, data cleaning and summarization along with some machine learning model generations are found here in the Notebooks folder.
-
 ## Scripts
 
 > All the scripts and modules used for this project relating to interactions with kafka, airflow, and other frameworks along with default parameters and values used will be found here, in the scripts folder.
