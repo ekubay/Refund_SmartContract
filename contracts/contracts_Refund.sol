@@ -65,13 +65,13 @@ contract Refund {
             // adding employer
     function  initialize_employers(address[] memory m) public {
         for (uint add=0 ; add < m.length; add++){
-            addEmployer(string.concat("Employer " , string.toString(add)) , m[add]);
+            addEmployer(string.concat("Employer " , Strings.toString(add)) , m[add]);
             }
     }
             // adding employee
    function  initialize_employees(address[] memory m) public{
          for (uint add=0 ; add < m.length; add++){
-            addEmployee(string.concat("Employee " , string.toString(add)) , m[add]);
+            addEmployee(string.concat("Employee " , Strings.toString(add)) , m[add]);
             }
     }
 
