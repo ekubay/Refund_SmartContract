@@ -38,7 +38,7 @@ const Welcome = ({ route, navigation }) => {
 
 	async function registerBackgroundFetchAsync() {
 		return BackgroundFetch.registerTaskAsync(BACKGROUND_FETCH_TASK, {
-			minimumInterval: 60 * 5 * 60, // 5 hours
+			minimumInterval: 60 * 6 * 60, // 5 hours
 			// stopOnTerminate: false, // android only,
 			// startOnBoot: true, // android only
 		});
